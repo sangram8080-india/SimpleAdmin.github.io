@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashbord Design | By Code Info</title>
+    <!-- font awasome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap cdn link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- css link -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <div class="slidbar">
+        <div class="logo">
+            <ul class="menu">
+                <li class="active">
+                    <a href="#">
+                        <i class="fa-solid fa-gauge-high"></i>
+                        <span>Dashbord</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-user"></i>
+                        <span>Profile</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-chart-bar"></i>
+                        <span>Statistics</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-briefcase"></i>
+                        <span>Careers</span>
+                    </a>
+                </li>
+
+
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-circle-question"></i>
+                        <span>FAQ</span>
+                    </a>
+                </li>
+
+
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-star"></i>
+                        <span>Testimonials</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-gear"></i>
+                        <span>Settings</span>
+                    </a>
+                </li>
+
+                <li id="logout">
+                    <a href="#">
+                        <i class="fa-solid fa-right-from-bracket"></i>
+                        <span>Logout</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="main-content">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <span>Primary</span>
+                <h2>Dashbord</h2>
+            </div>
+            <div class="user--info">
+                <div class="search--box">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" name="" placeholder="Search" id="">
+                </div>
+                <img src="./img/defaultLoginImg/loginUser.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="card-container">
+            <h3 class="main-title">Today's data</h3>
+            <div class="card--wrapper">
+                <div class="payment--card light-red">
+                    <div class="card--header">
+                        <div class="amount">
+                            <span class="title">
+                                Payment amount
+                            </span>
+                            <span class="amount--value">$500.00</span>
+                        </div>
+
+                        <i class="fa-solid fa-dollar-sign icon"></i>
+                    </div>
+                    <span class="card-detail">**** **** **** 4360</span>
+
+                </div>
+
+
+                <div class="payment--card light-green">
+                    <div class="card--header">
+                        <div class="amount">
+                            <span class="title">
+                                Payment Consumer
+                            </span>
+                            <span class="amount--value">$270.00</span>
+                        </div>
+
+                        <i class="fa-solid fa-users icon dark-green"></i>
+                    </div>
+                    <span class="card-detail">**** **** **** 4360</span>
+
+                </div>
+                <br>
+
+                <div class="payment--card light-blue">
+                    <div class="card--header">
+                        <div class="amount">
+                            <span class="title">
+                                Payment Proceed
+                            </span>
+                            <span class="amount--value">$400.00</span>
+                        </div>
+
+                        <i class="fa-solid fa-check icon dark-blue"></i>
+                    </div>
+                    <span class="card-detail">**** **** **** 4360</span>
+
+                </div>
+
+
+
+                <div class="payment--card light-purple">
+                    <div class="card--header">
+                        <div class="amount">
+                            <span class="title">
+                                Payment Order
+                            </span>
+                            <span class="amount--value">$200.00</span>
+                        </div>
+
+                        <i class="fa-solid fa-list icon dark-purple"></i>
+                    </div>
+                    <span class="card-detail">**** **** **** 4360</span>
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <!-- tabular wapper -->
+        <div class="tabuler--wrapper">
+            <h3 class="main--title">Finance Data</h3>
+
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <th>Date</th>
+                        <th>Transaction Type</th>
+                        <th>Description</th>
+                        <th>Amount</th>
+                        <th>Category</th>
+                        <th>Status</th>
+                        <th>Action</th>
+                    <tbody>
+                        <tr>
+                            <td>2023-05-01</td>
+                            <td>Expense</td>
+                            <td>Office supplies</td>
+                            <td>$250</td>
+                            <td>Office expenses</td>
+                            <td>Pending</td>
+                            <td><button>Edit</button></td>
+                        </tr>
+
+
+                        <tr>
+                            <td>2023-05-01</td>
+                            <td>Expense</td>
+                            <td>Office supplies</td>
+                            <td>$250</td>
+                            <td>Office expenses</td>
+                            <td>Pending</td>
+                            <td><button>Edit</button></td>
+                        </tr>
+
+
+                        <tr>
+                            <td>2023-05-01</td>
+                            <td>Expense</td>
+                            <td>Office supplies</td>
+                            <td>$250</td>
+                            <td>Office expenses</td>
+                            <td>Pending</td>
+                            <td><button>Edit</button></td>
+                        </tr>
+                        <tr>
+                            <td>2023-05-01</td>
+                            <td>Expense</td>
+                            <td>Office supplies</td>
+                            <td>$250</td>
+                            <td>Office expenses</td>
+                            <td>Pending</td>
+                            <td><button>Edit</button></td>
+                        </tr>
+                    </tbody>
+                    </thead>
+                </table>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
